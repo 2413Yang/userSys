@@ -1,0 +1,21 @@
+app:
+  app_name: "user_system" #应用名称
+  version: "v1.0.1" #版本
+  port: 8080 #服务启动端口
+  run_mode: release #可选dev、release模式
+
+db:
+  host: "0.0.0.0" # host
+  port: 8086      #port
+  user: "root"    #user
+  password: "123456" #password
+  dbname: "camps_user" #dbname
+  max_idle_conn: 5      #最大空闲连接数
+  max_open_conn: 20     #最大连接数
+  max_idle_time: 300    #最大空闲时间
+
+log:
+  log_pattern: file            #可选stdout, stderr,file模式
+  log_path: ./log/server.log   #日志路径
+  save_days: 5                 #保存天数
+  level: debug                  #panic,fatal,error,warn,info,debug,trace

@@ -1,0 +1,7 @@
+[2023-11-23 15:21:16] INFO[db.go:42]connect mysql success
+[2023-11-23 15:27:14] ERROR[entity.go:16]register param invalid
+[2023-11-23 15:32:50] INFO[db.go:42]connect mysql success
+[2023-11-23 15:32:55] ERROR[entity.go:16]register param invalid
+[2023-11-23 15:33:44] INFO[entity.go:41]user ===== &{CreateModel:{Creator:zhangsan CreateTime:0001-01-01 00:00:00 +0000 UTC} ModifyModel:{Modifier:zhangsan ModifyTime:0001-01-01 00:00:00 +0000 UTC} ID:0 Name:zhangsan Gender:male Age:18 PassWord:123456 NickName:}
+[2023-11-23 15:33:44] INFO[user.go:18]insert success
+[2023-11-23 15:35:09] ERROR[entity.go:25]用户已经注册,user_name==zhangsan
